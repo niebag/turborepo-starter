@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Next.js",
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+        /* Language compilation options */
+        "module": "NodeNext",   
+        "moduleDetection": "force",
+        "isolatedModules": true,     
+        "jsx": "preserve",
+        "incremental": true,
+
+        /* Path aliases */
+        "baseUrl": ".",
+        "paths": {
+            "~/*": ["./src*"]
+        },
+
+        /* Other options */
+        "plugins": [{ "name": "next"}],
+    },
+}

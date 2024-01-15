@@ -6,11 +6,16 @@
     "packages/*"
   ],
   "scripts": {
-    "prepare": "husky install"
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "prepare": "husky install",
+    "start": "turbo start"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.4.4",
     "@commitlint/config-conventional": "^18.4.4",
+    "@repo/eslint-configuration": "*",
     "@repo/typescript-configuration": "*",
     "husky": "^8.0.3",
     "turbo": "latest"
