@@ -1,0 +1,27 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Base",
+    "compilerOptions": {
+        /* Language compilation options */
+        "target": "ES2020",
+        "lib": ["DOM", "DOM.Iterable", "ES2020"], 
+        "module": "Node16",
+        "moduleResolution": "NodeNext",
+        "resolveJsonModule": true,
+
+        /* Emit rules */
+        "noEmit": true,
+        "declaration": true,
+        "declarationMap": true,
+
+        /* Type checking rules */
+        "strict": true,
+        "noUncheckedIndexedAccess": true, // TLDR; Checking an indexed value (array[0]) now forces type <T | undefined> as there is no confirmation that index exists
+        "checkJs": true,
+        "allowJs": true,
+
+        /* Other options */
+        "esModuleInterop": true,
+        "skipLibCheck": true
+    }
+}

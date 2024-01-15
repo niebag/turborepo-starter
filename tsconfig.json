@@ -1,2 +1,3 @@
 {
+    "extends": "@repo/typescript-configuration/base.json"
 }
