@@ -2,11 +2,11 @@
   "name": "notive-turborepo",
   "private": true,
   "scripts": {
+    "prepare": "husky install"
   },
   "devDependencies": {
-    "@repo/eslint-config": "*",
-    "@repo/typescript-config": "*",
-    "prettier": "^3.1.1",
+    "@commitlint/cli": "^18.4.4",
+    "@commitlint/config-conventional": "^18.4.4",
     "turbo": "latest"
   },
   "engines": {
