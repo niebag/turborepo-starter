@@ -15,8 +15,11 @@
     "husky": "^8.0.3",
     "turbo": "latest"
   },
-  "packageManager": "npm@9.6.7",
+  "packageManager": "npm@10.1.0",
   "engines": {
-    "node": ">=18"
+    "node": "20.9.*",
+    "npm": "10.1.*",
+    "pnpm": "Please use npm",
+    "yarn": "Please use npm"
   }
 }
