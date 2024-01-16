@@ -2,7 +2,7 @@
 const config = {
   extends: [
     "next/core-web-vitals",
-    "@repo/eslint-config/base.js"
+    "@repo/eslint-config/eslintrc.base.js"
   ],
 };
 

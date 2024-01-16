@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "files": [
-    "base.js",
-    "next.js"
+    "eslintrc.base.js",
+    "eslintrc.next.js"
   ],
   "dependencies": {
     "@types/eslint": "^8.56.2",
