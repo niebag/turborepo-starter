@@ -1,6 +1,11 @@
 /** @type {import("eslint").Linter.Config} */
 const config = {
-  extends: ["@repo/eslint-config/eslint.nextjs.cjs"],
-}
+  root: true,
+  extends: ["@repo/eslint-config/.eslintrc.nextjs.js"],
+  parser: "@typescript-eslint/parser",
+  parserOptions: {
+    project: true,
+  },
+};
 
 module.exports = config;

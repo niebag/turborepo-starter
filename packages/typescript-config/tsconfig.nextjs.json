@@ -4,7 +4,8 @@
     "extends": "./tsconfig.base.json",
     "compilerOptions": {
         /* Language compilation options */
-        "module": "NodeNext",   
+        "module": "ESNext",   
+        "moduleResolution": "Bundler",
         "moduleDetection": "force",
         "isolatedModules": true,     
         "jsx": "preserve",
