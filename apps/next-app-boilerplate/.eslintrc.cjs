@@ -1,6 +1,7 @@
 /** @type {import("eslint").Linter.Config} */
 const config = {
-  extends: ["@repo/eslint-config/eslint.nextjs.cjs"],
-}
+  ignorePatterns: ["apps/*", "packages/*"], // This is the base configuration for this monorepo, so the apps and packages are ignored as they should have their own configuration.
+  extends: ["@repo/eslint-configuration/.eslintrc.nextjs.cjs"],
+};
 
 module.exports = config;

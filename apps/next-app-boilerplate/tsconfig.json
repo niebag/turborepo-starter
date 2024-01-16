@@ -2,7 +2,7 @@
   "extends": "@repo/typescript-configuration/tsconfig.nextjs.json",
   "compilerOptions": {
     "plugins": [
-      // This tsconfig extends another configuration, which means the Next.js TypeScript plugin cannot be added automatically. 
+      // This tsconfig extends another configuration, which means the Next.js TypeScript plugin cannot be added automatically.
       // To improve the development experience, it is added manually.
       {
         "name": "next"
