@@ -16,9 +16,9 @@
     "react-dom": "^18"
   },
   "devDependencies": {
-    "@repo/eslint-configuration": "*",
-    "@repo/prettier-configuration": "*",
-    "@repo/typescript-configuration": "*",
+    "@repo/prettier-config": "*",
+    "@repo/typescript-config": "*",
+    "@repo/eslint-config": "*",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
