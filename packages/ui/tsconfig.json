@@ -1,11 +1,7 @@
 {
   "extends": "@repo/typescript-config/tsconfig.react-library.json",
   "compilerOptions": {
-    /* Path aliases */
-    "baseUrl": ".",
-    "paths": {
-      "~/*": ["./src/*"]
-    }
+    // Path alias is disabled due to bundling the apps
   },
   "include": [".eslintrc.cjs", "**/*.ts", "**/*.tsx", "**/*.cjs", "**/*.js"],
   "exclude": ["node_modules"]
