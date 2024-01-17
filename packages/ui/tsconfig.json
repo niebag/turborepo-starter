@@ -1,0 +1,12 @@
+{
+  "extends": "@repo/typescript-config/tsconfig.react-library.json",
+  "compilerOptions": {
+    /* Path aliases */
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"]
+    }
+  },
+  "include": [".eslintrc.cjs", "**/*.ts", "**/*.tsx", "**/*.cjs", "**/*.js"],
+  "exclude": ["node_modules"]
+}
