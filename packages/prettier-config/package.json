@@ -6,7 +6,8 @@
     "files": [
         "prettier.config.base.js",
         "prettier.config.nextjs.js",
-        "prettier.config.tailwindcss.js"
+        "prettier.config.tailwindcss.js",
+        "prettier.config.react-library.js"
     ],
     "devDependencies": {
         "prettier": "^3.2.2",

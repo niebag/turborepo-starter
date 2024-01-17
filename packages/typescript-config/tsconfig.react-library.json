@@ -1,17 +1,14 @@
 {
     "$schema": "https://json.schemastore.org/tsconfig",
-    "display": "Next.js",
+    "display": "React Library",
     "extends": "./tsconfig.base.json",
     "compilerOptions": {
         /* Language compilation options */
-        "module": "ESNext",   
+        "module": "ESNext",
         "moduleResolution": "Bundler",
         "moduleDetection": "force",
-        "isolatedModules": true,     
+        "isolatedModules": true,
         "jsx": "preserve",
         "incremental": true,
-
-        /* Other options */
-        "plugins": [{ "name": "next"}],
     },
 }
